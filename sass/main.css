@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,22 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif !important;
+}
+body .hview {
+  height: 100vh;
+}
+
+.min-container {
+  min-width: 90%;
+  margin: auto;
+}
+
+.nav-logo h3 {
+  font-weight: 600;
+  margin: 0;
+}
+.nav-logo h3 span {
+  color: #FFA756;
 }
 
 /*# sourceMappingURL=main.css.map */
