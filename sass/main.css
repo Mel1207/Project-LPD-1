@@ -14,43 +14,41 @@ body {
 body .hview {
   height: 100vh;
 }
-
-.min-container {
-  position: relative;
-  display: block;
-  width: 90%;
-  margin: auto;
-}
-
-.nav-border-navigator {
-  border-bottom: 1px solid #FFA756;
-}
-
-.nav-logo h3 {
-  font-weight: 600;
-  margin: 0;
-}
-.nav-logo h3 span {
-  color: #FFA756;
-}
-
-.nav-links {
-  list-style: none;
-  color: #fff;
-  margin-bottom: 0;
-  width: calc(30% + 40px);
-}
-.nav-links .nav-link {
-  padding: 0.5rem 0;
-}
-
-.nav-top {
+body .nav-top {
   position: fixed !important;
   top: 0;
   lef: 0;
   right: 0;
   width: 100%;
   z-index: 2;
+}
+body .nav-top .nav-border-navigator {
+  border-bottom: 1px solid #FFA756;
+}
+body .nav-top .min-container {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+body .nav-top .min-container .nav-logo h3 {
+  font-weight: 600;
+  margin: 0;
+}
+body .nav-top .min-container .nav-logo h3 span {
+  color: #FFA756;
+}
+body .nav-top .min-container .nav-links {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 0;
+  width: calc(30% + 40px);
+}
+body .nav-top .min-container .nav-links .nav-link {
+  padding: 0.5rem 0;
+}
+body .carousel .carousel-inner {
+  height: 90vh;
 }
 
 /*# sourceMappingURL=main.css.map */
