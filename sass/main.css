@@ -50,5 +50,13 @@ body .nav-top .min-container .nav-links .nav-link {
 body .carousel .carousel-inner {
   height: 90vh;
 }
+body .carousel .carousel-indicators {
+  bottom: 20%;
+}
+body .carousel .carousel-indicators li, body .carousel .carousel-indicators li.active {
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
 
 /*# sourceMappingURL=main.css.map */
