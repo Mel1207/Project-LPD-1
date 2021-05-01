@@ -72,9 +72,11 @@ body .carousel .address-box {
 }
 body .carousel .address-box .address-details {
   width: 50%;
+  padding: 25px;
 }
 body .carousel .address-box .address-soc-icons {
   width: 30%;
+  padding: 25px;
 }
 body .carousel .address-box .address-gallery {
   width: 20%;
