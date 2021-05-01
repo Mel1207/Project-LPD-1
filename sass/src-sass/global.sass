@@ -9,6 +9,7 @@ body
     font-family: 'Montserrat', sans-serif !important
     position: relative
     background-color: #FBFBFB !important
+    overflow-x: hidden
 
     .hview
         height: 100vh
@@ -25,28 +26,22 @@ body
     .nav-border-navigator
         border-bottom: 1px solid #FFA756
 
-    .min-container
-        position: relative
-        display: block
-        width: 90%
-        margin: auto
+    .nav-logo 
+        h3 
+            font-weight: 600
+            margin: 0
 
-        .nav-logo 
-            h3 
-                font-weight: 600
-                margin: 0
+            span 
+                color: #FFA756
 
-                span 
-                    color: #FFA756
+    .nav-links 
+        list-style: none
+        color: #fff
+        margin-bottom: 0
+        width: calc(30% + 40px)
 
-        .nav-links 
-            list-style: none
-            color: #fff
-            margin-bottom: 0
-            width: calc(30% + 40px)
-
-            .nav-link 
-                padding: .5rem 0
+        .nav-link 
+            padding: .5rem 0
 
 // CAROUSEL
 #carouselExampleIndicators
@@ -172,5 +167,73 @@ body
 .products-section
     margin: 5rem 0
 
+    .slick-list
+        padding: 50px 0
+
+    .card
+        border-radius: 0 !important
+        border: transparent
+        box-shadow: 9px 10px 23px 4px rgba(0, 0, 0, 0.03)
+
+        .card-img-top
+            border-radius: 0 !important
+
     h5
         margin: 0 0 2rem 0
+
+// MESSAGE-SECTION
+.message-section
+    background: #1A3B5A
+.message-container
+    margin: 0 !important
+
+    .message-col
+        padding: 0
+
+        h2 
+            padding: 5%
+            font-size: 4.5rem
+            font-weight: 600
+            color: #fff
+            position: relative
+
+            &::before
+                content: ""
+                position: absolute
+                height: 175px
+                width: 15px
+                background: #FFA756
+                left: 0
+                border-radius: 0 30px 30px 0
+
+        .message-text 
+            color: #fff
+            opacity: 0.5
+            font-style: italic
+            width: 50%
+            padding-left: 5%
+
+        .profile-container
+            padding-left: 5%
+            align-items: center
+            justify-content: start
+
+            .profile-img 
+                height: 70px
+                width: 80px
+                border-radius: 50%
+
+            .profile-details
+                padding: 0 20px
+
+                .profile-name, .profile-position
+                    margin: 0
+
+                .profile-name
+                    font-size: 20px
+                    color: #FFA756
+
+                .profile-position
+                    font-size: 15px
+                    color: #fff
+                    opacity: 0.5
