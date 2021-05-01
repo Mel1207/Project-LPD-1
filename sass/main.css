@@ -17,6 +17,11 @@ body .hview {
   height: 100vh;
 }
 
+.caption-content {
+  display: block !important;
+  z-index: 1080 !important;
+}
+
 .nav-top {
   position: fixed !important;
   top: 0;
@@ -24,6 +29,7 @@ body .hview {
   right: 0;
   width: 100%;
   z-index: 2;
+  background: #1A3B5A;
 }
 .nav-top .nav-border-navigator {
   border-bottom: 1px solid #FFA756;
