@@ -86,4 +86,21 @@ body .carousel .address-box .address-gallery img {
   width: 100%;
 }
 
+.min-container {
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+.about-section {
+  margin-top: 12rem;
+}
+.about-section h5 {
+  font-size: 3.5rem;
+}
+.about-section p {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=main.css.map */
