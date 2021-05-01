@@ -248,4 +248,35 @@ body .hview {
   opacity: 0.5;
 }
 
+.services-section {
+  margin: 5rem 0;
+}
+.services-section .service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 0;
+}
+.services-section .service .service-box {
+  width: 25rem;
+  height: 20rem;
+  margin-right: -5%;
+  z-index: 2;
+  background: #FFFFFF;
+  box-shadow: 9px 8px 19px 5px rgba(0, 0, 0, 0.06);
+  padding: 25px;
+}
+.services-section .service .service-img-container {
+  height: 25rem;
+  width: 40rem;
+}
+.services-section .service .service-img-container img {
+  height: 100%;
+  width: 100%;
+}
+.services-section .ser-2nd .service-box {
+  margin-right: 0;
+  margin-left: -5%;
+}
+
 /*# sourceMappingURL=main.css.map */
