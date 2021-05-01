@@ -93,14 +93,35 @@ body .carousel .address-box .address-gallery img {
   margin: auto;
 }
 
+.cbtn {
+  width: 200px;
+  background: red !important;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  text-decoration: none !important;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.cbtn .btn-icon {
+  height: 0.8rem;
+  margin-left: 20px;
+}
+
 .about-section {
   margin-top: 12rem;
+  height: 70vh;
+}
+.about-section .about-text-container {
+  flex-direction: column;
+  justify-content: space-around;
 }
 .about-section h5 {
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 .about-section p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
