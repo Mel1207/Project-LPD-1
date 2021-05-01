@@ -70,5 +70,18 @@ body .carousel .address-box {
   left: 50%;
   transform: translateX(-50%);
 }
+body .carousel .address-box .address-details {
+  width: 50%;
+}
+body .carousel .address-box .address-soc-icons {
+  width: 30%;
+}
+body .carousel .address-box .address-gallery {
+  width: 20%;
+}
+body .carousel .address-box .address-gallery img {
+  height: 12rem;
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
