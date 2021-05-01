@@ -8,85 +8,86 @@ body
     padding: 0
     font-family: 'Montserrat', sans-serif !important
     position: relative
+    background-color: #FBFBFB !important
 
     .hview
         height: 100vh
 
-    // NAVBAR
-    .nav-top
-        position: fixed !important
-        top: 0
-        lef: 0
-        right: 0
-        width: 100%
-        z-index: 2
+// NAVBAR
+.nav-top
+    position: fixed !important
+    top: 0
+    lef: 0
+    right: 0
+    width: 100%
+    z-index: 2
 
-        .nav-border-navigator
-            border-bottom: 1px solid #FFA756
+    .nav-border-navigator
+        border-bottom: 1px solid #FFA756
 
-        .min-container
-            position: relative
-            display: block
-            width: 90%
-            margin: auto
+    .min-container
+        position: relative
+        display: block
+        width: 90%
+        margin: auto
 
-            .nav-logo 
-                h3 
-                    font-weight: 600
-                    margin: 0
+        .nav-logo 
+            h3 
+                font-weight: 600
+                margin: 0
 
-                    span 
-                        color: #FFA756
+                span 
+                    color: #FFA756
 
-            .nav-links 
-                list-style: none
-                color: #fff
-                margin-bottom: 0
-                width: calc(30% + 40px)
+        .nav-links 
+            list-style: none
+            color: #fff
+            margin-bottom: 0
+            width: calc(30% + 40px)
 
-                .nav-link 
-                    padding: .5rem 0
+            .nav-link 
+                padding: .5rem 0
 
-    // CAROUSEL
-    #carouselExampleIndicators
-        width: 100% !important
-        // max-height: 90vh !important
+// CAROUSEL
+#carouselExampleIndicators
+    width: 100% !important
+    // max-height: 90vh !important
 
-    .carousel
-        .carousel-inner
-            max-height: 90vh !important
+.carousel
+    .carousel-inner
+        max-height: 90vh !important
 
-        .carousel-indicators 
-            bottom: 6rem
+    .carousel-indicators 
+        bottom: 6rem
 
-            li, li.active
-                border-radius: 50%
-                height: 10px
-                width: 10px
+        li, li.active
+            border-radius: 50%
+            height: 10px
+            width: 10px
 
-        .address-box 
-            position: absolute
-            height: 12rem
-            width: 90%
-            background: #1A3B5A
-            bottom: -6rem
-            left: 50%
-            transform: translateX(-50%)
+    .address-box 
+        position: absolute
+        height: 12rem
+        width: 90%
+        background: #1A3B5A
+        bottom: -6rem
+        left: 50%
+        transform: translateX(-50%)
 
-            .address-details
-                width: 50%
-                padding: 25px
+        .address-details
+            width: 50%
+            padding: 25px
 
-            .address-soc-icons
-                width: 30%
-                padding: 25px
+        .address-soc-icons
+            width: 30%
+            padding: 25px
 
-            .address-gallery
-                width: 20%
+        .address-gallery
+            width: 20%
 
-                img
-                    height: 12rem
-                    width: 100%
+            img
+                height: 12rem
+                width: 100%
 
 .min-container
     position: relative
@@ -111,8 +112,9 @@ body
 
 // ABOUT-SECTION
 .about-section
-    margin-top: 12rem
-    height: 70vh
+    margin: 12rem 0
+    height: auto
+    width: 100%
 
     .about-text-container
         flex-direction: column
@@ -123,3 +125,30 @@ body
 
     p 
         font-size: 1.2rem
+
+
+// // STATISTICS-SECTION
+.statistics-section
+    height: auto
+    width: 100%
+    background: #fff
+    box-shadow: 0px 15px 25px 4px rgba(75, 75, 75, 0.02) !important
+    display: flex
+
+    .stats-box 
+        margin: 5rem 0
+        .stats-icon
+            height: 50px
+            widows: 50px
+            margin: 0 0 1.5rem 0
+        .stats-number
+            display: block
+            font-size: 80px
+            font-weight: 600
+            color: #FFA756
+            line-height: 75px
+        p 
+            font-size: 20px
+            font-weight: 600
+            color: #1A3B5A
+            margin: 0
