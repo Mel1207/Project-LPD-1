@@ -49,10 +49,9 @@ body .nav-top .min-container .nav-links .nav-link {
 }
 body #carouselExampleIndicators {
   width: 100% !important;
-  height: auto !important;
 }
 body .carousel .carousel-inner {
-  height: auto !important;
+  max-height: 90vh !important;
 }
 body .carousel .carousel-indicators {
   bottom: 6rem;
