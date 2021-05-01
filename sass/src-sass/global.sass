@@ -49,15 +49,29 @@ body
 
 
     // CAROUSEL
+    #carouselExampleIndicators
+        width: 100% !important
+        height: auto !important
+
     .carousel
         .carousel-inner
-            height: 90vh
+            height: auto !important
 
         .carousel-indicators 
-            bottom: 20%
+            bottom: 6rem
 
             li, li.active
                 border-radius: 50%
                 height: 10px
                 width: 10px
+
+        .address-box 
+            position: absolute
+            height: 12rem
+            width: 90%
+            background: #1A3B5A
+            bottom: -6rem
+            left: 50%
+            transform: translateX(-50%)
+            // transform: translate(-50%, -50%)
                 

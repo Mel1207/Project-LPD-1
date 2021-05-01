@@ -47,16 +47,29 @@ body .nav-top .min-container .nav-links {
 body .nav-top .min-container .nav-links .nav-link {
   padding: 0.5rem 0;
 }
+body #carouselExampleIndicators {
+  width: 100% !important;
+  height: auto !important;
+}
 body .carousel .carousel-inner {
-  height: 90vh;
+  height: auto !important;
 }
 body .carousel .carousel-indicators {
-  bottom: 20%;
+  bottom: 6rem;
 }
 body .carousel .carousel-indicators li, body .carousel .carousel-indicators li.active {
   border-radius: 50%;
   height: 10px;
   width: 10px;
+}
+body .carousel .address-box {
+  position: absolute;
+  height: 12rem;
+  width: 90%;
+  background: #1A3B5A;
+  bottom: -6rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=main.css.map */
