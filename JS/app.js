@@ -12,7 +12,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
-        slidesToShow: 2,
+        slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
             {

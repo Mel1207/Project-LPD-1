@@ -160,8 +160,21 @@ body .hview {
   margin: 0;
 }
 
+.slick-dots {
+  bottom: -50px !important;
+  width: 200px !important;
+  right: 0 !important;
+}
+.slick-dots li button::before {
+  font-size: 14px !important;
+  color: #1A3B5A !important;
+}
+
 .products-section {
   margin: 5rem 0;
+}
+.products-section h5 {
+  margin: 0 0 2rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */
