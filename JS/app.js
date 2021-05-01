@@ -16,6 +16,15 @@ $(document).ready(function(){
         slidesToScroll: 1,
         responsive: [
             {
+                breakpoint: 1080,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                 slidesToShow: 2,
@@ -32,6 +41,6 @@ $(document).ready(function(){
               }
             },
             // settings: "unslick"
-          ]
+        ]
     });
 });
