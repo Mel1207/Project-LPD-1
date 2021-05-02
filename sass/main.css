@@ -279,4 +279,31 @@ body .hview {
   margin-left: -5%;
 }
 
+.testimonial-section {
+  background: #1A3B5A;
+  width: 100%;
+  height: 30rem;
+}
+.testimonial-section .white-box {
+  height: 100%;
+  widows: 100%;
+  background: #fff;
+  padding: 30px;
+}
+.testimonial-section .white-box h3 {
+  position: relative;
+  margin: 0;
+}
+.testimonial-section .white-box h3::before {
+  content: "";
+  height: 40px;
+  width: 5px;
+  background: #FFA756;
+  position: absolute;
+  left: -30px;
+  border-radius: 0 50px 50px 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /*# sourceMappingURL=main.css.map */
