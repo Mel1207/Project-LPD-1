@@ -6,6 +6,17 @@
 // });
 
 $(document).ready(function(){
+    // NAV CONDITIONING
+    $(window).scroll(() => {
+        if($(this).scrollTop() > 50) {
+            $('nav').addClass('coloredNav');
+        } else {
+            $('nav').removeClass('coloredNav');
+        }
+    })
+
+
+
     $('.multiple-items').slick({
         infinite: true,
         autoplay: true,
