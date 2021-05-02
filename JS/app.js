@@ -8,7 +8,7 @@
 $(document).ready(function(){
     // NAV CONDITIONING
     $(window).scroll(() => {
-        if($(this).scrollTop() > 50) {
+        if($(this).scrollTop() > 100) {
             $('nav').addClass('coloredNav');
         } else {
             $('nav').removeClass('coloredNav');
