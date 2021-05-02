@@ -64,7 +64,7 @@ body
     .address-box 
         position: absolute
         height: 12rem
-        width: 90%
+        width: 80%
         background: #1A3B5A
         bottom: -6rem
         left: 50%
@@ -73,10 +73,12 @@ body
         .address-details
             width: 50%
             padding: 25px
+            background: #1A3B5A
 
         .address-soc-icons
             width: 30%
             padding: 25px
+            background: #1A3B5A
 
         .address-gallery
             width: 20%
@@ -88,13 +90,13 @@ body
 .min-container
     position: relative
     display: block
-    width: 90%
+    width: 80%
     margin: auto
 
 .max-container
     position: relative
     display: block
-    width: 95%
+    width: 90%
     margin-left: auto
 
 .cbtn
@@ -325,12 +327,51 @@ body
                 padding: 10px
                 border-radius: 50px
 
-
 // GOOGLE MAP
-// #googlemap
+#googlemap
+    position: absolute
+    height: 30rem
+    width: 100%
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    z-index: 0
+
+// .mapouter
 //     position: absolute
-//     height: 100%
 //     width: 100%
 //     top: 0
+//     right: 0
 //     left: 0
-//     z-index: 0
+//     bottom: 0
+
+.gmap_canvas
+    overflow: hidden
+    background: none !important
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    height: 100%
+    width: 100%
+    background: red
+
+    #gmap_canvas
+        height: 100% !important
+        width: 100% !important
+
+
+// CONTACT-SECTION
+.contact-section
+    position: relative
+    width: 100%
+    height: 30rem
+
+    .contact-box
+        margin: 30px 0
+        padding: 30px
+        width: 100%
+        background: #fff
+        box-shadow: 6px 7px 31px 4px rgba(0, 0, 0, 0.13)
