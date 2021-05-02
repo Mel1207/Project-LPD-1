@@ -8,7 +8,6 @@
 $(document).ready(function(){
     $('.multiple-items').slick({
         infinite: true,
-        
         autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
@@ -42,5 +41,14 @@ $(document).ready(function(){
             },
             // settings: "unslick"
         ]
+    });
+
+    $('.client-container').slick({
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     });
 });
