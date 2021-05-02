@@ -15,8 +15,7 @@ $(document).ready(function(){
         }
     })
 
-
-
+    // SLICK CONDITIONING
     $('.multiple-items').slick({
         infinite: true,
         autoplay: true,
