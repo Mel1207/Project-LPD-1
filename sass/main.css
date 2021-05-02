@@ -172,6 +172,10 @@ body .hview {
   margin: 0;
 }
 
+.slick-arrow {
+  display: none !important;
+}
+
 .slick-dots {
   bottom: -50px !important;
   width: 200px !important;
@@ -333,6 +337,10 @@ body .hview {
   background: #53F3A6;
   padding: 10px;
   border-radius: 50px;
+}
+
+.partners-section {
+  margin: 5rem 0;
 }
 
 #googlemap {
