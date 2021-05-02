@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -96,6 +97,13 @@ body .hview {
   display: block;
   width: 90%;
   margin: auto;
+}
+
+.max-container {
+  position: relative;
+  display: block;
+  width: 95%;
+  margin-left: auto;
 }
 
 .cbtn {
@@ -224,28 +232,35 @@ body .hview {
 }
 .message-container .message-col .profile-container {
   padding-left: 5%;
+}
+.message-container .message-col .profile-container .profile-name {
+  color: #FFA756;
+}
+.message-container .message-col .profile-container .profile-position {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.profile-container {
   align-items: center;
   justify-content: start;
 }
-.message-container .message-col .profile-container .profile-img {
+.profile-container .profile-img {
   height: 70px;
   width: 80px;
   border-radius: 50%;
 }
-.message-container .message-col .profile-container .profile-details {
+.profile-container .profile-details {
   padding: 0 20px;
 }
-.message-container .message-col .profile-container .profile-details .profile-name, .message-container .message-col .profile-container .profile-details .profile-position {
+.profile-container .profile-details .profile-name, .profile-container .profile-details .profile-position {
   margin: 0;
 }
-.message-container .message-col .profile-container .profile-details .profile-name {
+.profile-container .profile-details .profile-name {
   font-size: 20px;
-  color: #FFA756;
 }
-.message-container .message-col .profile-container .profile-details .profile-position {
+.profile-container .profile-details .profile-position {
   font-size: 15px;
-  color: #fff;
-  opacity: 0.5;
 }
 
 .services-section {
@@ -280,7 +295,6 @@ body .hview {
 }
 
 .testimonial-section {
-  background: #1A3B5A;
   width: 100%;
   height: 30rem;
   position: relative;
@@ -307,13 +321,14 @@ body .hview {
   top: 50%;
   transform: translateY(-50%);
 }
-.testimonial-section .broad {
-  width: 5%;
-  height: 30rem;
-  background: #fff;
-  position: absolute;
-  top: 0;
-  right: 0;
+.testimonial-section .white-box .client-hashtag {
+  margin-top: 2rem;
+}
+.testimonial-section .white-box .client-hashtag .happyHash {
+  color: #fff;
+  background: #53F3A6;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
