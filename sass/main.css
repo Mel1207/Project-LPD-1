@@ -30,17 +30,12 @@ body .hview {
   right: 0;
   width: 100%;
   z-index: 2;
-  background: #1A3B5A;
 }
 .nav-top .nav-border-navigator {
   border-bottom: 1px solid #FFA756;
 }
-.nav-top .nav-logo h3 {
-  font-weight: 600;
-  margin: 0;
-}
-.nav-top .nav-logo h3 span {
-  color: #FFA756;
+.nav-top .nav-logo img {
+  height: 3rem;
 }
 .nav-top .nav-links {
   list-style: none;
