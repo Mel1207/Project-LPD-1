@@ -113,6 +113,30 @@ body
             width: 35%
             margin: 30px
 
+            div.d-flex
+                justify-content: center
+                align-items: center
+
+            .icon
+                position: relative
+                height: 40px
+                width: 40px
+                margin: 0 10px
+
+                .hover
+                    position: absolute
+                    top: 0
+                    left: 0
+                    opacity: 0
+                    transition: 0.5s ease
+
+                &:hover
+                    .hover
+                        opacity: 1
+                    .regular
+                        opacity: 0
+
+
         .address-gallery
             width: 25%
 

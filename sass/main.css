@@ -114,6 +114,29 @@ body .hview {
   width: 35%;
   margin: 30px;
 }
+.carousel .address-box .address-soc-icons div.d-flex {
+  justify-content: center;
+  align-items: center;
+}
+.carousel .address-box .address-soc-icons .icon {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px;
+}
+.carousel .address-box .address-soc-icons .icon .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.carousel .address-box .address-soc-icons .icon:hover .hover {
+  opacity: 1;
+}
+.carousel .address-box .address-soc-icons .icon:hover .regular {
+  opacity: 0;
+}
 .carousel .address-box .address-gallery {
   width: 25%;
 }
