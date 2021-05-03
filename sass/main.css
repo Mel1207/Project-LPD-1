@@ -101,14 +101,18 @@ body .hview {
   transform: translateX(-50%);
 }
 .carousel .address-box .address-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px;
   width: 45%;
-  padding: 25px;
-  background: #1A3B5A;
+}
+.carousel .address-box .address-details p {
+  margin: 0;
 }
 .carousel .address-box .address-soc-icons {
   width: 35%;
-  padding: 25px;
-  background: #1A3B5A;
+  margin: 30px;
 }
 .carousel .address-box .address-gallery {
   width: 25%;
