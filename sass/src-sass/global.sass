@@ -390,7 +390,7 @@ body
     bottom: 0
     height: 100%
     width: 100%
-    background: red
+    z-index: 3
 
     #gmap_canvas
         height: 100% !important
@@ -401,12 +401,14 @@ body
 .contact-section
     position: relative
     width: 100%
-    height: auto
+    height: 38rem
 
     .contact-box
+        position: absolute
         margin: 30px 0
         padding: 30px
-        width: 100%
+        width: 40%
+        min-width: 400px
         background: #fff
         box-shadow: 6px 7px 31px 4px rgba(0, 0, 0, 0.13)
 
