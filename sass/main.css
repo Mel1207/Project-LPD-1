@@ -402,7 +402,7 @@ body .hview {
   position: absolute;
   margin: 30px 0;
   padding: 30px;
-  width: 40%;
+  width: calc( 40% + 20px );
   min-width: 400px;
   background: #fff;
   box-shadow: 6px 7px 31px 4px rgba(0, 0, 0, 0.13);
@@ -424,6 +424,13 @@ body .hview {
 }
 .contact-section .contact-box input:focus, .contact-section .contact-box input:active, .contact-section .contact-box textarea:focus, .contact-section .contact-box textarea:active {
   border-bottom: 1px solid #1A3B5A;
+}
+
+.footer {
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  background: #1A3B5A;
 }
 
 /*# sourceMappingURL=main.css.map */
