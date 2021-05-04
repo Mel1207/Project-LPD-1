@@ -141,6 +141,32 @@ body
                     .regular
                         opacity: 0
 
+            .cbtn
+                position: relative
+                margin: auto
+                border: 1px solid #FFA756
+                color: #FFA756
+                transition: 0.3s ease
+                z-index: 1080
+
+                &::before
+                    content: ""
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 0
+                    height: 100%
+                    z-index: -1
+                    background: #FFA756
+                    transition: 0.3s ease
+
+                &:hover
+                    color: #fff
+
+                    &::before
+                        width: 100%
+
+                    
 
         .address-gallery
             width: 30%
@@ -163,9 +189,8 @@ body
 
 .cbtn
     width: 200px
-    background: red !important
     font-size: 1rem
-    padding: 1rem 2rem
+    padding: .8rem 1.7rem
     text-decoration: none !important
     cursor: pointer
     position: relative
