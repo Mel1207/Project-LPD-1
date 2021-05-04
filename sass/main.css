@@ -150,6 +150,26 @@ body .hview {
   transition: 0.3s ease;
   z-index: 1080;
 }
+.carousel .address-box .address-soc-icons .cbtn .btn-icon-container {
+  position: relative;
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+}
+.carousel .address-box .address-soc-icons .cbtn .btn-icon-container .btn-icon-orange {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}
+.carousel .address-box .address-soc-icons .cbtn .btn-icon-container .btn-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  width: 100%;
+}
 .carousel .address-box .address-soc-icons .cbtn::before {
   content: "";
   position: absolute;
@@ -163,6 +183,12 @@ body .hview {
 }
 .carousel .address-box .address-soc-icons .cbtn:hover {
   color: #fff;
+}
+.carousel .address-box .address-soc-icons .cbtn:hover .btn-icon-container .btn-icon {
+  opacity: 1;
+}
+.carousel .address-box .address-soc-icons .cbtn:hover .btn-icon-container .btn-icon-orange {
+  opacity: 0;
 }
 .carousel .address-box .address-soc-icons .cbtn:hover::before {
   width: 100%;
@@ -198,10 +224,6 @@ body .hview {
   position: relative;
   display: flex;
   justify-content: space-between;
-}
-.cbtn .btn-icon {
-  height: 0.8rem;
-  margin-left: 20px;
 }
 
 .about-section {
