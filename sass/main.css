@@ -500,6 +500,41 @@ body .hview {
   background: #1A3B5A;
   padding: 30px 0;
 }
+.footer .form-group {
+  margin-bottom: 4rem;
+}
+.footer .form-group h5 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.footer .footer-about p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-about .footer-logo {
+  height: 3rem;
+  width: auto;
+  margin-bottom: 1.2rem;
+}
+.footer .col-title {
+  font-size: 20px;
+  margin-bottom: 2.2rem;
+}
+.footer .cbtn-form {
+  color: #fff;
+  background: #FFA756;
+  transition: 0.3s ease;
+}
+.footer .cbtn-form:hover {
+  background: #ffb875;
+}
+
+p {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 35px;
+}
 
 .cbtn {
   width: 200px;
