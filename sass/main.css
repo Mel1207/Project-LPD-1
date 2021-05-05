@@ -519,6 +519,22 @@ body .hview {
   font-size: 20px;
   margin-bottom: 2.2rem;
 }
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer ul li a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.footer .footer-logo-list {
+  display: flex;
+}
+.footer .footer-logo-list li {
+  margin-right: 13px;
+}
 .footer .cbtn-form {
   color: #fff;
   background: #FFA756;
