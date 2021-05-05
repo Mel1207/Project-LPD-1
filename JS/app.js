@@ -62,3 +62,23 @@ $(document).ready(function(){
         slidesToScroll: 1,
     });
 });
+
+let addClassOnScroll = function () {
+    let windowTop = $(window).scrollTop();
+    $('section[id]').each(function (index, elem) {
+        let offsetTop = $(elem).offset().top;
+        let outerHeight = $(this).outerHeight(true);
+
+        if( windowTop > (offsetTop - 50) && windowTop < ( offsetTop + outerHeight)) {
+            let elemId = $(elem).attr('id');
+            $("nav ul li a.active").removeClass('active');
+            $("nav ul li a[href='#" + elemId + "']").addClass('active');
+        }
+    });
+};
+
+$(function () {
+    $(window).on('scroll', function () {
+        addClassOnScroll();
+    });
+});
