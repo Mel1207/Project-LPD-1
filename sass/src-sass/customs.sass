@@ -23,6 +23,70 @@
         left: 0
         opacity: 0
 
+.cbtn.orange
+    position: relative
+    margin: auto
+    border: 1px solid #FFA756
+    color: #FFA756
+    transition: 0.3s ease
+    z-index: 1080
+
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 0
+        height: 100%
+        z-index: -1
+        background: #FFA756
+        transition: 0.3s ease
+
+    &:hover
+        color: #fff
+
+        &::before
+            width: 100%
+        
+        .hover-state
+            opacity: 1
+            top: 6px
+        
+        .none-hover-state
+            opacity: 0
+
+.cbtn.blue
+    position: relative
+    border: 1px solid #1A3B5A
+    color: #1A3B5A
+    transition: 0.3s ease
+    z-index: 1080
+
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 0
+        height: 100%
+        z-index: -1
+        background: #1A3B5A
+        transition: 0.3s ease
+
+    &:hover
+        color: #fff
+
+        &::before
+            width: 100%
+        
+        .hover-state
+            opacity: 1
+            top: 6px
+        
+        .none-hover-state
+            opacity: 0
+
+
 
 .cinput 
     width: 100%
