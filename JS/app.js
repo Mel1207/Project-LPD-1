@@ -5,6 +5,31 @@
 //     slidesToScroll: 3
 // });
 
+const counters = document.querySelectorAll('.counter');
+const speed = 800;
+
+const animateCount = () => {
+    counters.forEach(counter => {
+        const updateCount = () => {
+            const target = +counter.getAttribute('data-target');
+            const count  = +counter.innerText;
+    
+            const inc = target / speed;
+    
+            if(count < target) {
+                counter.innerText = Math.ceil(count + inc);
+                setTimeout(updateCount, 3);
+            } else {
+                count.innerText = target;
+            }
+        }
+    
+        updateCount();
+    });
+}
+
+
+
 $(document).ready(function(){
     // NAV CONDITIONING
     $(window).scroll(() => {
@@ -12,6 +37,11 @@ $(document).ready(function(){
             $('nav').addClass('coloredNav');
         } else {
             $('nav').removeClass('coloredNav');
+        }
+
+        if($(this).scrollTop() > 1100) {
+            console.log('scrolled over 500')
+            animateCount();
         }
     })
 
