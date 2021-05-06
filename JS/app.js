@@ -5,6 +5,28 @@
 //     slidesToScroll: 3
 // });
 
+// gsap.to(".service-box", {
+    
+//     scrollTrigger: {
+//         trigger: '.service-box',
+//         start: "bottom center"
+//     },
+//     x: 20
+// })
+
+let tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.service-img-container .ser-2nd',
+        start: "center bottom"
+    }
+});
+
+tl.from(".service-img-right", { x: 200, opacity: 0, duration: 1.5})
+    .from(".service-box-left", { x: -200, opacity: 0, duration: 1 }, "-=1")
+
+tl.from(".service-img-left", { x: -200, opacity: 0, duration: 1})
+    .from(".service-box-right", { x: 200, opacity: 0, duration: 1 }, "-=1")
+
 const counters = document.querySelectorAll('.counter');
 const speed = 800;
 
