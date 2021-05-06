@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -284,6 +285,7 @@ body .hview {
 }
 .message-container .message-col .profile-container {
   padding-left: 5%;
+  padding-bottom: 5%;
 }
 .message-container .message-col .profile-container .profile-name {
   color: #FFA756;
@@ -360,6 +362,7 @@ body .hview {
 .testimonial-section {
   background: #1A3B5A;
   width: 100%;
+  height: auto;
   margin: 5rem 0;
   position: relative;
 }
@@ -369,6 +372,25 @@ body .hview {
   background: #fff;
   padding: 30px;
   z-index: 5;
+}
+.testimonial-section .white-box .testimonial-title-head {
+  font-size: 25px;
+  margin: 3rem 3rem 1.5rem 3rem;
+  font-weight: 600;
+}
+.testimonial-section .white-box .testimonial-comment {
+  position: relative;
+  margin: 2rem 3rem 1rem 3rem;
+  z-index: 2;
+}
+.testimonial-section .white-box .testimonial-comment::before {
+  content: "”";
+  font-size: 500px;
+  position: absolute;
+  opacity: 0.1;
+  right: 0;
+  top: -50%;
+  transform: translateY(-30%);
 }
 .testimonial-section .white-box h3 {
   position: relative;
@@ -385,8 +407,18 @@ body .hview {
   top: 50%;
   transform: translateY(-50%);
 }
+.testimonial-section .white-box .profile-container {
+  margin: 2rem 3rem 3rem 3rem;
+}
+.testimonial-section .white-box .profile-container .profile-name {
+  color: #1A3B5A;
+  font-weight: 600;
+}
+.testimonial-section .white-box .profile-container .profile-position {
+  font-size: 13px;
+}
 .testimonial-section .white-box .client-hashtag {
-  margin-top: 2rem;
+  margin: 2rem 3rem 3rem 3rem;
 }
 .testimonial-section .white-box .client-hashtag .happyHash {
   color: #fff;
