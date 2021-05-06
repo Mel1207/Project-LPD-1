@@ -235,6 +235,7 @@ body .hview {
 }
 .products-section .card .card-img-top {
   border-radius: 0 !important;
+  height: 14rem;
 }
 .products-section .card .cbtn .cbtn-hoverable .hover-state {
   top: 0 !important;
